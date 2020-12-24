@@ -1,0 +1,27 @@
+body 
+	{
+	background: #efefef;
+	font-family: arial;
+	}
+				
+a:hover 
+	{
+	color: #00000;
+	text-decoration; none;
+	}
+	
+h1 
+	{
+	font-size: 24px;
+	}
+h2 
+	{
+	font-size: 20px;
+	}
+h3 
+	{
+	font-size: 18px;
+	}		
+h4 {
+	font-size: 16px;
+	}	
