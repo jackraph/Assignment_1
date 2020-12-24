@@ -1,27 +1,60 @@
-body 
-	{
-	background: #efefef;
+body {
+	background: #81d4fa;
 	font-family: arial;
-	}
+}
 				
-a:hover 
-	{
-	color: #00000;
-	text-decoration; none;
-	}
-	
-h1 
-	{
-	font-size: 24px;
-	}
-h2 
-	{
-	font-size: 20px;
-	}
-h3 
-	{
-	font-size: 18px;
-	}		
-h4 {
+a:link {
+color: gray;
+text-decoration: none;
+}
+
+a:visited {
+color: green;
+text-decoration: none;
+}
+
+a:hover {
+color: purple;
+text-decoration; none;
+}
+
+a:active {
+color: teal;
+text-decoration: none;
+}
+
+p {
 	font-size: 16px;
-	}	
+}
+	
+h1 {
+	color: #01579b;
+	font-size: 32px;
+}
+
+h2 {
+	color: #01579b;
+	font-size: 20px;
+}
+
+h3 {
+	color: #01579b;
+	font-size: 18px;
+}		
+
+h4 {
+	color: #01579b;
+	font-size: 16px;
+}
+
+div {
+    margin-top:0px;
+	margin-left:200px;
+	margin-right:200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+    background-color:#e1f5fe;
+}
+
