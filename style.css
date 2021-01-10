@@ -1,64 +1,36 @@
-body {
-	background: #81d4fa;
-	font-family: arial;
-}
-				
-a:link {
-color: gray;
-text-decoration: none;
-}
 
-a:visited {
-color: green;
-text-decoration: none;
-}
-
-a:hover {
-color: purple;
-text-decoration; none;
-}
-
-a:active {
-color: teal;
-text-decoration: none;
-}
-
-p {
-	font-size: 16px;
-}
-	
 h1 {
-	color: #01579b;
-	font-size: 62px;
+	font-size: 35px;
 }
 
 h2 {
-	color: #01579b;
-	font-size: 25px;
+	font-size: 35px;
 	text-decoration: underline;
 }
 
-h3 {
-	color: #01579b;
-	font-size: 18px;
-}		
-
-h4 {
-	color: #01579b;
-	font-size: 16px;
+header {
+	color: #000000;
+	margin-top: 50px;	
+	padding-left: 25px;
 }
 
-div {
-    margin-top:50px;
-	margin-left:200px;
-	margin-right:200px;
-	padding-top: 10px;
-	padding-bottom: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
-    background-color:#e1f5fe;
-	
-	border-radius: 25px;
+body {
+  color: #FFF;
+  font-family: Helvetica;
+  text-align: center-left;
+}
 
+.personal, .about, .interest, .job, .profile{
+	border: 5px solid rgba(255,255,255,0.8);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #2980b9;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 
