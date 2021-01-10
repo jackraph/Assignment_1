@@ -1,6 +1,6 @@
 
 h1 {
-	font-size: 35px;
+	font-size: 25px;
 }
 
 h2 {
@@ -10,8 +10,8 @@ h2 {
 
 header {
 	color: #000000;
-	margin-top: 50px;	
-	padding-left: 25px;
+	margin-top: 25px;
+    margin-bottom:0px;	
 }
 
 body {
@@ -21,10 +21,9 @@ body {
 }
 
 .personal, .about, .interest, .job, .profile{
-	border: 5px solid rgba(255,255,255,0.8);
+	border: 5px solid rgba(255,255,255,0.4);
 	border-radius: 5px;
 	padding: 20px;
-	margin-top: 20px;
 	margin-bottom: 20px;
 	background: #2980b9;
 }
@@ -34,3 +33,7 @@ body {
   margin: 0 auto;
 }
 
+a {
+	color: blue;
+	
+}
